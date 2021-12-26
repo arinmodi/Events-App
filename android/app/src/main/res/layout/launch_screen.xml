@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/headerimg"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bvmlogo"
+        android:layout_centerInParent="true"
+        android:id="@+id/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B V M"
+        android:id="@+id/bvm"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="25dp"
+        android:textColor="#0424FF"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events App"
+        android:id="@+id/events"
+        android:layout_below="@id/bvm"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"  />
+
+
+
+
+</RelativeLayout>
